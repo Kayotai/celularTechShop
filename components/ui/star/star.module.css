@@ -1,0 +1,14 @@
+.stars {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  color: var(--muted-foreground);
+}
+.starFilled { color: var(--accent); fill: var(--accent); }
+.starEmpty { color: var(--muted); }
+
+@media (max-width: 380px) {
+  .scoreSpan {
+    display: none;
+  }
+}

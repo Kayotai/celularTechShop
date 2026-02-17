@@ -1,0 +1,192 @@
+.cardContainer {
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin-bottom: 3rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    border-color: #27272a;
+    background: #18181b; 
+}
+
+
+/* --- Main --- */
+.mainContent {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: minmax(0, 1fr);
+}
+
+/*  --- Image --- */
+.imageWrapper {
+    position: relative;
+    width: 100%;
+    max-width: 260px;
+    aspect-ratio: 1 / 1;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: .2rem 0;
+}
+
+.productImage {
+    object-fit: contain;
+}
+
+
+
+.title {
+    font-size: clamp(.7rem, 1.4rem, 2rem);
+    font-weight: 700;
+    color: #f4f4f5;
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
+}
+
+.ratingRow {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.scoreBadge {
+    background: #10b981;
+    color: white;
+    font-weight: bold;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 0.9rem;
+}
+
+.description {
+    font-size: 0.95rem;
+    /* color: #52525b; */
+    color: #a1a1aa;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+.actions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem;
+    margin-top: 1rem;
+}
+
+
+.priceRow {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+/* --- vantagens e desvantagens --- */
+.prosConsGrid {
+    display: grid;
+    gap: 1rem;
+}
+
+.listBox {
+    background: #27272a; 
+    padding: 1.25rem;
+    border-radius: 8px;
+}
+
+.listTitle {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+.listBox ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.listBox li {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+    font-size: 0.9rem;
+    line-height: 1.4;
+    color: #d4d4d8; 
+}
+.iconPro { color: #10b981; min-width: 18px; }
+.iconCon { color: #ef4444; min-width: 18px; }
+
+
+/* --- SPECS --- */
+.specsContainer {
+    border-top: 1px solid #e5e7eb;
+    padding-top: 1.5rem;
+}
+
+.specsTitle {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.specsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+}
+
+.specItem {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    color: #52525b;
+}
+
+.specLabel {
+    display: block;
+    font-size: 0.75rem;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    color: #a1a1aa;
+}
+
+.specValue {
+    display: block;
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: #fff;
+}
+
+/* --- desktop breakpoint --- */
+@media (min-width: 768px) {
+    .mainContent {
+        grid-template-columns: 260px 1fr;
+        gap: 2rem;
+        align-items: start;
+        justify-items: start;
+        text-align: left;
+    }
+
+    .imageWrapper {
+        margin-inline: 0;
+        max-width: 100%;
+    }
+
+    .prosConsGrid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .specsGrid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    
+    .actions {
+        flex-direction: column;
+        align-items: center;
+    }
+}

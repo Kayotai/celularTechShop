@@ -1,0 +1,99 @@
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 1.5em 2em;
+    position: relative;
+    z-index: 50;
+    background: var(--background); 
+}
+
+.logo {
+    font-weight: 700;
+    font-size: clamp(1rem, 4vw, 1.5rem);
+    color: var(--link-header);
+}
+
+.linkNav > a {
+    color: var(--link-header);
+    display: block;
+    transition: all 0.3s linear;
+    font-weight: var(--font-weight-medium);
+}
+
+.linkNav > a:hover {
+    color: var(--link-header-hover);
+    transform: scale(1.1);
+}
+
+.menuButton {
+    display: block;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.mobileOverlay {
+    display: block;
+    position: fixed;
+    inset: 0; 
+    z-index: 100;
+    pointer-events: none; 
+}
+
+.backdrop {
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.5);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.drawer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 80%; 
+    max-width: 300px;
+    background: var(--background);
+    padding: 2em;
+    transform: translateX(100%);
+    transition: transform 0.3s ease;
+    box-shadow: -5px 0 15px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.mobileOverlay.open { pointer-events: all; }
+.mobileOverlay.open .backdrop { opacity: 1; }
+.mobileOverlay.open .drawer { transform: translateX(0); }
+
+.drawerHeader {
+    position: relative;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+    
+.drawerHeader button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.navMobileList {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    font-size: 1.1rem;
+    text-align: center;
+}

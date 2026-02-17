@@ -1,0 +1,41 @@
+.base {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: calc(var(--radius) - 2px);
+  border: 1px solid transparent;
+  padding: 0.125rem 0.5rem; 
+  font-size: 0.75rem; 
+  font-weight: var(--font-weight-medium);
+  width: fit-content;
+  white-space: nowrap;
+  transition: colors 0.2s ease;
+}
+
+.default {
+  background-color: var(--primary);
+  color: var(--primary-foreground);
+}
+
+.default:hover {
+  opacity: 0.9;
+}
+
+.secondary {
+  background-color: var(--secondary);
+  color: var(--secondary-foreground);
+}
+
+.secondary:hover {
+  background-color: color-mix(in srgb, var(--secondary), black 10%);
+}
+
+.destructive {
+  background-color: var(--destructive);
+  color: var(--destructive-foreground);
+}
+
+.outline {
+  border-color: var(--border);
+  color: var(--foreground);
+}

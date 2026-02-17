@@ -1,0 +1,14 @@
+import { MetadataRoute } from 'next';
+
+export default function robots(): MetadataRoute.Robots {
+  const BASE_URL = 'https://celulartech.shop'; 
+
+  return {
+    rules: {
+      userAgent: '*',
+      allow: '/',
+      disallow: ['/private/', '/admin/'], // Bloqueia áreas administrativas
+    },
+    sitemap: `${BASE_URL}/sitemap.xml`,
+  };
+}

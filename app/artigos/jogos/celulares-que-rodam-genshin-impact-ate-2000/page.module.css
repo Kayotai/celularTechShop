@@ -1,0 +1,41 @@
+.contentWrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+.introSection {
+    margin-bottom: 3rem;
+    text-align: center;
+    color: #666;
+    line-height: 1.6;
+}
+
+.updateDate {
+    font-size: 0.9rem;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.introText {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+}
+
+.cardsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem; 
+    padding-bottom: 4rem;
+}
+
+.imageContainer > img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+@media (min-width: 649px) {
+    .imageContainer > img {
+        height: 370px;
+    }
+}

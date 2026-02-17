@@ -1,0 +1,56 @@
+.alertBox {
+    background: rgba(16, 185, 129, 0.15); /* Fundo verde transparente */
+    border: 1px solid #10b981;
+    color: #a7f3d0;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    font-size: 0.95rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.introText {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #e4e4e7;
+    margin-bottom: 1.5rem;
+}
+
+.sectionTitle {
+    text-align: center;
+    font-size: 1.8rem;
+    margin: 3rem 0 2rem;
+    background: linear-gradient(to right, #fff, #a1a1aa);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.analysisSection h3 {
+    color: #10b981;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+}
+
+.analysisSection p {
+    color: #d4d4d8;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.finalVerdictBox {
+    background: #27272a;
+    border-left: 4px solid #10b981;
+    padding: 2rem;
+    border-radius: 0 12px 12px 0;
+    margin-top: 3rem;
+}
+
+/* Link interno estilizado */
+.analysisSection a {
+    color: #10b981;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}

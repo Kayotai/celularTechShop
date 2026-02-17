@@ -1,0 +1,23 @@
+.main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+.headerBlog {
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.titles {
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+
+.subtitle {
+    color: #666;
+    font-size: 1.1rem;
+    
+}
+

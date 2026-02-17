@@ -1,0 +1,30 @@
+.section {
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionTitle {
+    font-size: 2em;
+    margin-bottom: 1rem;
+    width: 100%;
+    text-align: left;
+    
+
+    background: rgba(34, 234, 8, 0.1); 
+    border-left: 4px solid #10b981; 
+    padding: 1rem;
+    margin: 2rem 0;
+    border-radius: 0 8px 8px 0;
+    color: #e4e4e7;
+}
+
+.carouselWrapper {
+    max-width: 660px;    
+}
+
+@media (min-width: 768px) {
+    
+}
