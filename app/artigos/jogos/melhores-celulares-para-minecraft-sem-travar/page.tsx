@@ -7,7 +7,7 @@ import styles from "./page.module.css";
 import imageMinecraft from "@/public/images/jogos/minecraft/minecraft.webp"
 
 const pageData = {
-    title: "Melhores Celulares para Jogar Minecraft Sem Travar (2026)",
+    title: "Melhores Celulares para Jogar Minecraft Sem Travar em 2026",
     description: "Do básico ao avançado: celulares com bateria infinita e memória para muitos mods e shaders.",
     slug: "melhores-celulares-para-minecraft-sem-travar",
     path: "artigos/jogos",

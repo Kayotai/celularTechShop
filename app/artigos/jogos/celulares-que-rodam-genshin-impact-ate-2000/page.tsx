@@ -44,11 +44,11 @@ export default function CelularesGenshinBaratos() {
                         Atualizado em: <strong>{new Date(pageData.modifiedAt).toLocaleDateString('pt-BR')}</strong>
                     </span>
                     <p className={styles.introText}>
-                        Genshin Impact ainda é o "terror" dos celulares básicos. Mas em 2026, com a queda de preço de processadores antigos de topo de linha, 
-                        <strong>não é mais necessário gastar R$ 5.000</strong> para explorar Sumeru ou Natlan sem lag.
+                        Genshin Impact ainda é o pesadelo dos celulares básicos. Mas em 2026, com a queda de preço de processadores antigos de topo de linha, 
+                        <strong>não é mais necessário gastar R$ 5.000</strong> para explorar sem lag ou qualquer outro problema.
                     </p>
                     <p className={styles.introText}>
-                        Filtramos o mercado brasileiro e encontramos as 3 joias raras que entregam performance de console por menos de R$ 2.000.
+                        Filtramos o mercado brasileiro e encontramos as 3 joias raras que entregam performance de console por R$ 2.000 ou menos.
                     </p>
                 </section>
 

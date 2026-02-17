@@ -37,7 +37,7 @@ const bestPhoneOfTheWeek = {
 };
 
 const pageData = {
-    title: "O Melhor Celular de 2026 (Até Agora): Galaxy S24 FE é o imperador do Custo-Benefício? Vamos ver!",
+    title: "O Melhor Celular de 2026 até Agora: Galaxy S24 FE é o imperador do Custo-Benefício? Vamos ver!",
     description: "Análise rápida: Por que gastar R$ 5.000 se o S24 FE faz tudo por R$ 2.600? Testamos câmeras, jogos e bateria.",
     slug: "melhor-celular-custo-beneficio-2026",
     path: "artigos/reviews",
@@ -61,8 +61,6 @@ export default function ReviewHighlightPage() {
             />
 
             <div className={styles.contentWrapper}>
-                
-                {/* INTRODUÇÃO AGRESSIVA (COPYWRITING) */}
                 <section className={styles.introSection}>
                     <div className={styles.alertBox}>
                         🚨 <strong>Alerta de Preço:</strong> Este aparelho atingiu o menor valor histórico nesta semana na Amazon.

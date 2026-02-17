@@ -3,12 +3,10 @@ import ModelBlog from "@/model/modelBlog";
 import CardProduct from "@/components/cards/cards";
 import { listVideoPhones } from "@/componentsLists/video/listVideoPhones";
 import styles from "./page.module.css"; 
-import Image from "next/image";
-import imageGravar from "@/public/images/videoPhones/gravarVideos.webp"
 
 const pageData = {
     title: "Melhores Celulares para Gravar Vídeo e Reels até 2.000 (2026)",
-    description: "Quer começar no TikTok ou YouTube sem gastar uma fortuna? Testamos estabilização, microfone e qualidade 4K destes aparelhos acessíveis.",
+    description: "Quer começar no TikTok ou YouTube sem gastar demais? Testamos estabilização, microfone e qualidade 4K destes aparelhos acessíveis.",
     slug: "melhores-celulares-para-gravar-video-ate-2000",
     path: "artigos/criadores",
     publishedAt: "2026-02-02T08:00:00Z",

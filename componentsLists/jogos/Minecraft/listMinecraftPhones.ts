@@ -1,7 +1,7 @@
 import { CardPhoneProps } from "@/componentsLists/listcardsPhone/listPhone";
 
 export const listMinecraftPhones: CardPhoneProps[] = [
-    // 1. O Barato
+    // O Barato
     {
     id: "galaxy-a17-256gb",
     image: "/images/jogos/minecraft/SamsungGalaxyA175G.webp", // Lembre de subir a imagem com esse nome
@@ -67,8 +67,8 @@ export const listMinecraftPhones: CardPhoneProps[] = [
     image: "/images/jogos/minecraft/Smartphone Samsung Galaxy S24+.webp", // Sugestão de nome para o arquivo
     title: "Samsung Galaxy S24+ 5G (512GB)",
     score: 9.7,
-    description: "O equilíbrio perfeito entre luxo e poder. Com sua tela QHD+, o Minecraft ganha uma definição absurda, permitindo enxergar biomas distantes com clareza máxima.",
-    price: "R$ 5.199", // Preço estimado para o modelo de 512GB em 2026
+    description: "O equilíbrio perfeito entre luxo e poder. Com sua tela QHD+, o Minecraft ganha uma definição absurda que permite você enxergar biomas distantes com clareza máxima.",
+    price: "R$ 5.199", 
     linkAffiliate: "https://www.amazon.com.br/dp/B0CQD9W98F",
     linkReview: "/artigos/reviews/galaxy-s24-plus",
     pros: [

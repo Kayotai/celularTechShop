@@ -7,7 +7,7 @@ export const listCodPhones: CardPhoneProps[] = [
         image: "/images/jogos/cod/xiaomiPocoX7.webp",         
         title: "Poco X7 5G",
         score: 9.2,
-        description: "Uma lenda do custo-benefício voltou. Com o novo Dimensity otimizado para jogos, o Poco X7 entrega 90 FPS sem explodir seu bolso.",
+        description: "Uma lenda do custo-benefício voltou. Com o novo Dimensity otimizado para jogos, o Poco X7 entrega 90 FPS sem te fazer viver de miojo.",
         price: "R$ 2.079",
         linkAffiliate: "https://www.amazon.com.br/Smartphone-Xiaomi-Black-Preto-2412DPC0AG/dp/B0DR7Z1NNB?__mk_pt_BR=ÅMÅŽÕÑ&dib=eyJ2IjoiMSJ9.DtlAKL4KNhffMNNTY2YvvtT331jciVwpf6hTZE8R1G0eJsuLHfMlsy2zrQeMZTWvi5vmupuDZUqUUU8DANPvJEmEvbJbMuAJM7yfPuTbFYeOvefArvFrVFpS-p5n1rR-HxD7ftON3viBFIIQo8XijOyPb4gntfHiwDvaq3ZviETA9nHF5Y1lsaKtpVExzEA1cu6ld0axRxYIb3tx7jpNOdIhgqXl5rFtQ-jesOU2kBJzs7To8td-iq0asOU-8vt1tssrBPTOkCF4UsOiSaQasCOe2EkOz3xdQNh4icZItyU.gBtw9BnHmQ6f-3GjZSfWsLzJZCKNgIIR-Apa8z5sw8Q&dib_tag=se&keywords=poco+x7+pro&qid=1768601724&s=electronics&sr=1-5&linkCode=ll1&tag=vituber-20&linkId=c7bf9914ad822b6fb7b33c9815d3cdb2&language=pt_BR&ref_=as_li_ss_tl&gad_source=1&gad_campaignid=22406522538&gclid=CjwKCAiAqKbMBhBmEiwAZ3UboKpmpWHLcdmfgfDM5KtSfdCsG0IK2bDMi_ay_eMAYkaEx2xycRoLGRoCoH4QAvD_BwE",
         linkReview: "/artigos/reviews/poco-x7",

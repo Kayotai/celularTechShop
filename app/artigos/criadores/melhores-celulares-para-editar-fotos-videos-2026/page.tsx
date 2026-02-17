@@ -8,7 +8,7 @@ import imageEdit from "@/public/images/videoPhones/edicaoDeFotosVideos.webp"
 
 const pageData = {
     title: "Melhores Celulares para Editar Fotos e Vídeos em 2026 do Barato ao mais caro",
-    description: "Esqueça o PC: Estes celulares têm processador e tela calibrada para rodar Lightroom, CapCut e Photoshop Express sem engasgos.",
+    description: "Esqueça o PC! Estes celulares têm processador e tela calibrada para rodar Lightroom, CapCut e Photoshop Express sem engasgos.",
     slug: "melhores-celulares-para-editar-fotos-videos-2026",
     path: "artigos/criadores",
     publishedAt: "2026-03-10T09:00:00Z",

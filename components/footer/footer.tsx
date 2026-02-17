@@ -41,6 +41,7 @@ export default function Footer()
       {/* Barra de Copyright */}
       <div className={styles.copyright}>
         <p>&copy; {currentYear} CelularTech. Todos os direitos reservados.</p>
+        <p><a href="https://icons8.com.br/icon/7ajPJajLJfCM/smartphone" target="_blank">Ícones</a></p>
       </div>
       
     </footer>
