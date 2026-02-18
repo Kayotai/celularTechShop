@@ -2,7 +2,6 @@ import { constructMetadata, generateSchema } from "@/lib/seo-utils";
 import ModelBlog from "@/model/modelBlog";
 import CardProduct from "@/components/cards/cards"; 
 import styles from "./page.module.css"; 
-import Image from "next/image";
 import Link from "next/link";
 
 // dados do produto
@@ -12,8 +11,8 @@ const bestPhoneOfTheWeek = {
     title: "Samsung Galaxy S24 FE 5G (256GB)",
     score: 9.8,
     description: "Não compre o S26 ainda. O S24 FE entrega 95% da performance por 50% do preço. É a escolha inteligente da semana.",
-    price: "R$ 2.649",
-    linkAffiliate: "https://www.amazon.com.br/Smartphone-Samsung-Galaxy-C%C3%A2mera-Selfie/dp/B0DHNKT6R8/ref=sr_1_3?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2612J2612&dib=eyJ2IjoiMSJ9.s24fe",
+    price: "R$ 3.499",
+    linkAffiliate: "https://amzn.to/4tHP1NP",
     linkReview: "#veredito", 
     pros: [
         "Processador de Topo de Linha: O Exynos 2400e roda Genshin Impact e Warzone sem engasgos.",

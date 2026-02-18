@@ -6,10 +6,10 @@ export const listMinecraftPhones: CardPhoneProps[] = [
     id: "galaxy-a17-256gb",
     image: "/images/jogos/minecraft/SamsungGalaxyA175G.webp", // Lembre de subir a imagem com esse nome
     title: "Samsung Galaxy A17 5G (256GB)",
-    score: 8.7,
+    score: 9.9,
     description: "O espaço que você precisa para nunca mais apagar um mundo. Com 256GB de memória, o A17 é perfeito para quem lota o Minecraft de mods e shaders sem medo de ficar sem espaço.",
-    price: "R$ 1.249",
-    linkAffiliate: "https://www.amazon.com.br/dp/B0FPQ1C614", // Link limpo
+    price: "R$ 1.199",
+    linkAffiliate: "https://amzn.to/4tEv0Yx",
     linkReview: "/artigos/reviews/galaxy-a17",
     pros: [
         "256GB de Armazenamento: O dobro da maioria dos concorrentes na mesma faixa de preço.",
@@ -36,10 +36,10 @@ export const listMinecraftPhones: CardPhoneProps[] = [
         id: "poco-x7-pro",
         image: "/images/jogos/cod/xiaomiPocoX7.webp",
         title: "Poco X7 Pro",
-        score: 9.5,
+        score: 9.8,
         description: "Quer aumentar a 'Render Distance' para 16 ou 20 chunks sem lag? O processador desse celular aguenta o tranco e ainda roda shaders leves.",
-        price: "R$ 2.448",
-        linkAffiliate: "https://www.amazon.com.br/Smartphone-Xiaomi-X7-Black-2412DPC0AG/dp/B0DRD1SBSD/ref=sr_1_6?crid=BETUH5ROAZ69&dib=eyJ2IjoiMSJ9.S_pyKDx6uNyqri5AScN7aXbfUTS2JqdYi9Efq-kNr_ibWoxGaEj0h8hLzSYVpIdLmMv-Yr7YrJEPlQ8CvuPbRoJ9JpHsR5v5-pZH5SYRcsDaU796YvFgGRFidn1a7nUJFY2zWz294iRZry75ivQe8hxElAtnHiWkpTnAmwMdbsRtYRumX4mTVXvgPHRE_3leDVjoYbv0FkQrvnVEwhhX7IRdba8PzW_5bthNmyARZXoPjQ588DTb3nE4Dx69b3hCK4bGp8doha4Wb6XAw5EmAiOe2EkOz3xdQNh4icZItyU.9F4NC43wc4XdHvOTQ4bdYo-fWMknnPbJyRE8S4VHNhw&dib_tag=se&keywords=poco+x7+pro&qid=1770663338&sprefix=poco%2Caps%2C219&sr=8-6",
+        price: "R$ 2.489",
+        linkAffiliate: "https://amzn.to/4kRjl4E",
         linkReview: "/artigos/reviews/poco-x7-pro",
         pros: [
             "Processador Dimensity 8400: Carrega chunks muito mais rápido.",
@@ -66,10 +66,10 @@ export const listMinecraftPhones: CardPhoneProps[] = [
     id: "galaxy-s24-plus",
     image: "/images/jogos/minecraft/Smartphone Samsung Galaxy S24+.webp", // Sugestão de nome para o arquivo
     title: "Samsung Galaxy S24+ 5G (512GB)",
-    score: 9.7,
+    score: 9.8,
     description: "O equilíbrio perfeito entre luxo e poder. Com sua tela QHD+, o Minecraft ganha uma definição absurda que permite você enxergar biomas distantes com clareza máxima.",
-    price: "R$ 5.199", 
-    linkAffiliate: "https://www.amazon.com.br/dp/B0CQD9W98F",
+    price: "R$ 3.449", 
+    linkAffiliate: "https://amzn.to/40gX2LZ",
     linkReview: "/artigos/reviews/galaxy-s24-plus",
     pros: [
         "Tela Dynamic AMOLED 2X QHD+: A melhor resolução para ver cada detalhe das suas construções.",

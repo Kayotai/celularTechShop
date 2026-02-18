@@ -5,11 +5,11 @@ export const listEditingPhones: CardPhoneProps[] = [
     {
         id: "poco-f7",
         image: "/images/videoPhones/xiaom.webp",
-        title: "Poco F7 5G",
-        score: 9.1,
-        description: "Para quem usa CapCut e Alight Motion: o Poco F7 foca 100% em processador bruto. Ele exporta vídeos 4K na metade do tempo de um iPhone antigo.",
-        price: "R$ 2.079",
-        linkAffiliate: "https://www.amazon.com.br/Smartphone-Xiaomi-Black-Preto-2412DPC0AG/dp/B0DR7Z1NNB/ref=sr_1_10?__mk_pt_BR=ÅMÅŽÕÑ&crid=JEG1H36AW81O&dib=eyJ2IjoiMSJ9.7RPuv2ka2ZbQYu1kZUQeNgQ6PxRZlkls_nUIUu3e3icfJymihETERQ4CalwZhYd6BqXshilec7dFiURLxAiR5NLZLg6QQk4olAoZXJ9fpog6qPoNGccSl20gzETMMLFLr6TwkBeAL8MFZcRw-FiSgLm0iKqAfrQb5ICO6bbOkz3oBfcW0A_TGWUarioOFjvhyrOXYWFUrdlYmvldQQlRhgnJypj3czuDAnkR_SDuPRKnM8wbi1WnkaYRGO4ICxOf_AH95wkKxl04lPh_qFoVHdNCvcUgrkYfzQWCePITxYU.seI76h1giOzbmQXxj4zvgoJU6AClFaqVvWuJk6SyEEM&dib_tag=se&keywords=poco+x7&qid=1770664250&s=electronics&sprefix=poco+x7%2Celectronics%2C208&sr=1-10",
+        title: "Poco X7 5G",
+        score: 9.6,
+        description: "Para quem usa CapCut e Alight Motion: o Poco X7 foca 100% em processador bruto. Ele exporta vídeos 4K na metade do tempo de um iPhone antigo.",
+        price: "R$ 1.940",
+        linkAffiliate: "https://amzn.to/4roQHdo",
         linkReview: "/artigos/reviews/poco-f7",
         pros: [
             "Processador Snapdragon 8 Gen 3 (Reutilizado de 2024): Potência dos antigos melhores.",
@@ -38,8 +38,8 @@ export const listEditingPhones: CardPhoneProps[] = [
         title: "Xiaomi 14T Pro",
         score: 9.7,
         description: "A tela do celular é calibrada profissionalmente. Se você edita fotos para marcas ou clientes e precisa garantir que a precisão das cores esteja certa, essa é a melhor opção.",
-        price: "R$ 3.299",
-        linkAffiliate: "https://www.amazon.com.br/Smartphone-Xiaomi-512GB-Leica-Preto/dp/B0DKN46SY5/ref=sr_1_2?__mk_pt_BR=ÅMÅŽÕÑ&crid=4RAYR68W4BLK&dib=eyJ2IjoiMSJ9.zbsa1c9EqOXt-8yaQo_ao58v3ieAebN7QDB-YcrgANpAppQNItgH3NF150TozerVepG1JqCL8qaeKMEh5ZPa-EVGABr7RhGTrQTI_fTAMiC03EVtCNhDcYRd3EICcphx7kdVxjMypfgRpYPYUOXUJyDrfC2VQPlE6bZzvEseeLnxadnryp7AsDsdlWBSjHAZ2CKyWzulloGOUl2IDk9BspCqDOu8L8o_QCDnZmHmOm9kleL1HEB_xph2gpTkbs8HWJAx8CM817lQlh7n4xn3298U3uDXHNVuaD9lL7Dzr80.9-vd2Kbacs9sP010X0Uaf-mhzp6nnynADM20v9h8GHg&dib_tag=se&keywords=Xiaomi+15T+Pro&qid=1770664342&s=electronics&sprefix=xiaomi+15t+pro%2Celectronics%2C201&sr=1-2&ufe=app_do%3Aamzn1.fos.a492fd4a-f54d-4e8d-8c31-35e0a04ce61e",
+        price: "R$ 3.599",
+        linkAffiliate: "https://amzn.to/4kOpCy4",
         linkReview: "/artigos/reviews/xiaomi-14t-pro",
         pros: [
             "Tela CrystalRes 144Hz: Fluidez máxima e cobertura 100% DCI-P3.",
@@ -68,8 +68,8 @@ export const listEditingPhones: CardPhoneProps[] = [
         title: "Samsung Galaxy S25 Ultra",
         score: 10.0,
         description: "O único com S-Pen. Para editar máscaras no Lightroom ou desenhar frames frame-a-frame no vídeo, a precisão da caneta é insuperável. Resumindo é um PC de bolso.",
-        price: "R$ 7.998",
-        linkAffiliate: "www.amazon.com.br/Celular-Samsung-Galaxy-Quádrupla-Titânio/dp/B0DSY6L19S/ref=sr_1_2_sspa?__mk_pt_BR=ÅMÅŽÕÑ&crid=2WNVC512NDUK9&dib=eyJ2IjoiMSJ9.vKFiVpqeVYdzOTz0aQ7CkoW2cLXOxNAp8HEURZFXJSsazYQgo9hWIBCZEgSfXrPt-kfBKRjTu46iEG1FztDLENzi8NlI-GZy9uQqQkpHv3xTmO2yT3sm2qKX4Ic3vvCeTVmHnLzJPbLXtiDpg111qGjjWVkFEpMGB6-kBaLqx-8pM165933eQaeEFXoUxjYgjhU7NYIpMRyB9zkzDGpHj-wbh6_qyak82xk18K9JkesekXQYPmCo-TM7svdiA8__qrBPrIcoH6ThVPi1H7GMA11VL8Z6jAlR0WM8aS5U22A.8rkr9sALn41fzJ-RJsMcrzgnsosgj5ZdEUGwXgj9erk&dib_tag=se&keywords=galaxy+s25&qid=1770664486&s=electronics&sprefix=galaxy+s2%2Celectronics%2C258&sr=1-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1",
+        price: "R$ 6.799",
+        linkAffiliate: "https://amzn.to/4qLG7fx",
         linkReview: "/artigos/reviews/galaxy-s25-ultra",
         pros: [
             "S-Pen Integrada: Precisão cirúrgica para remover coisas muito pequenas no Photoshop.",

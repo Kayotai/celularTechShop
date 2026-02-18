@@ -4,11 +4,11 @@ const BASE_URL = 'https://celulartech.shop';
 
 export default function sitemap(): MetadataRoute.Sitemap {
     const blogPosts = [
-        { slug: "melhores-celulares-para-cod-mobile-2026", category: "jogos", date: "2026-02-17" },
-        { slug: "celulares-que-rodam-genshin-impact-ate-2000", category: "jogos", date: "2026-02-17" },
-        { slug: "melhores-celulares-para-gravar-video-ate-2000", category: "criadores", date: "2026-02-17" },
-        { slug: "melhores-celulares-para-minecraft-sem-travar", category: "jogos", date: "2026-02-17" },
-        { slug: "melhores-celulares-para-editar-fotos-videos-2026", category: "criadores", date: "2026-02-17" },
+        { slug: "melhores-celulares-para-cod-mobile-2026", category: "jogos", date: "2026-02-18" },
+        { slug: "celulares-que-rodam-genshin-impact-ate-2000", category: "jogos", date: "2026-02-18" },
+        { slug: "melhores-celulares-para-gravar-video-ate-2000", category: "criadores", date: "2026-02-18" },
+        { slug: "melhores-celulares-para-minecraft-sem-travar", category: "jogos", date: "2026-02-18" },
+        { slug: "melhores-celulares-para-editar-fotos-videos-2026", category: "criadores", date: "2026-02-18" },
         { slug: "techphone-app/app/artigos/reviews/melhor-celular-2026-custo-beneficio", category: "review", date: "2026-02-17" }
     ];
 

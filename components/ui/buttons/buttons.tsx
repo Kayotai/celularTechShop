@@ -1,14 +1,17 @@
 import styles from './buttons.module.css'
 import Link from 'next/link'
 
-interface children { children: React.ReactNode; href: string; }
+interface children { children: React.ReactNode; href: string, target?: string, rel?: string; }
 
-export default function Button({children, href}:children)
+export default function Button({children, href }:children)
 {
    return (
     <Link 
         href={href}
+        rel='sponsored noopener noreferrer'
+        target='_blank'
         className={styles['cssbuttons-io-button']}
+
     >
         {children}
         <div className={styles.icon}>
