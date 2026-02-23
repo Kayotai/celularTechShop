@@ -7,8 +7,8 @@ export default function manifest(): MetadataRoute.Manifest {
     description: 'Melhores celulares para jogos e criadores de conteúdo.',
     start_url: '/',
     display: 'standalone',
-    background_color: '#18181b', // Cor de fundo (Dark mode)
-    theme_color: '#10b981', // Cor do tema (Seu verde)
+    background_color: '#18181b', // Cor de fundo
+    theme_color: '#10b981', // Cor do tema 
     icons: [
       {
         src: '/favicon.ico',

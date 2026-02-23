@@ -1,0 +1,112 @@
+/* --- CONTAINER PRINCIPAL --- */
+.contentWrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+/* --- INTRODUÇÃO E ALERTA --- */
+.introSection {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.alertBox {
+    background: rgba(234, 179, 8, 0.15); /* Fundo amarelo transparente (atenção) */
+    border: 1px solid #eab308;
+    color: #fef08a;
+    padding: 1.2rem;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+.introText {
+    font-size: 1.15rem;
+    line-height: 1.7;
+    color: #e4e4e7;
+    font-weight: 500;
+}
+
+.introSection p {
+    color: #a1a1aa;
+    line-height: 1.6;
+}
+
+/* --- SEÇÃO DE PRODUTOS --- */
+.highlightProduct {
+    margin-top: 1rem;
+}
+
+.sectionTitle {
+    text-align: center;
+    font-size: clamp(1.5rem, 4vw, 2rem);
+    margin-bottom: 2.5rem;
+    background: linear-gradient(to right, #fff, #a1a1aa);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+}
+
+/* O segredo para afastar um card do outro */
+.cardsList {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem; 
+}
+
+/* --- ANÁLISE TÉCNICA --- */
+.analysisSection {
+    background: #18181b;
+    border: 1px solid #27272a;
+    padding: 2rem;
+    border-radius: 12px;
+}
+
+.analysisSection h3 {
+    color: #3b82f6; /* Azul tech */
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+}
+
+.analysisSection h3:first-child {
+    margin-top: 0;
+}
+
+.analysisSection p {
+    color: #d4d4d8;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+/* --- VEREDITO FINAL --- */
+.verdictSection {
+    scroll-margin-top: 80px; /* Compensação para o menu fixo, se houver */
+}
+
+.finalVerdictBox {
+    background: #27272a;
+    border-left: 4px solid #10b981; /* Verde de aprovação */
+    padding: 2rem;
+    border-radius: 0 12px 12px 0;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.finalVerdictBox h3 {
+    color: #fff;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.finalVerdictBox p {
+    color: #d4d4d8;
+    line-height: 1.6;
+}

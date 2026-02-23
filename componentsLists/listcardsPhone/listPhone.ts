@@ -16,9 +16,9 @@ export interface CardPhoneProps {
     price: string;
     linkAffiliate: string;
     linkReview?: string;
-    pros: string[]; // Vantagens
-    cons: string[]; // Desvantagens
-    specs: PhoneSpecs; // Ficha Técnica
+    pros: string[]; 
+    cons: string[]; 
+    specs: PhoneSpecs; 
 }
 
 // Dados Exemplo (Corrigidos para não dar erro de undefined)

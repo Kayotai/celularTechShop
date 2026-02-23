@@ -9,7 +9,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
         { slug: "melhores-celulares-para-gravar-video-ate-2000", category: "criadores", date: "2026-02-18" },
         { slug: "melhores-celulares-para-minecraft-sem-travar", category: "jogos", date: "2026-02-18" },
         { slug: "melhores-celulares-para-editar-fotos-videos-2026", category: "criadores", date: "2026-02-18" },
-        { slug: "techphone-app/app/artigos/reviews/melhor-celular-2026-custo-beneficio", category: "review", date: "2026-02-17" }
+        { slug: "melhor-celular-2026-custo-beneficio", category: "review", date: "2026-02-17" },
+        { slug: "melhores-celulares-para-trabalhar-no-uber-2026", category: "trabalho", date: "2026-02-23" }
     ];
 
     // Mapeamento dos Posts para URLs

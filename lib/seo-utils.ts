@@ -13,12 +13,11 @@ export function constructMetadata({ title, description, slug, path, publishedAt,
   const finalDate = modifiedAt || publishedAt;
 
   return {
-    title: `${title} - TechInter`,
+    title: `${title} - CelularTech`,
     description,
     alternates: {
-      canonical: `https://techinter.com.br/${path}/${slug}`,
+      canonical: `https://celulartech.shop/${path}/${slug}`,
     },
-    // Aqui avisamos aos robôs a data da última modificação
     other: {
       "article:published_time": publishedAt,
       "article:modified_time": finalDate,
@@ -29,7 +28,7 @@ export function constructMetadata({ title, description, slug, path, publishedAt,
 // Helper para gerar o Script JSON-LD automático
 export function generateSchema(props: SeoProps) {
   return {
-    "@context": "https://schema.org",
+    "@context": "https://celulartech.shop",
     "@type": "TechArticle",
     "headline": props.title,
     "description": props.description,
@@ -37,8 +36,8 @@ export function generateSchema(props: SeoProps) {
     "dateModified": props.modifiedAt || props.publishedAt,
     "author": {
       "@type": "Person",
-      "name": "Seu Nome/TechInter",
-      "url": "https://techinter.com.br/sobre"
+      "name": "Hiago/CelularTech",
+      "url": "https://celulartech.shop/sobre"
     }
   };
 }

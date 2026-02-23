@@ -52,6 +52,15 @@ export const BlogPosts: PostCardProps[] = [
         image: "/images/videoPhones/edicaoDeFotosVideos.webp", 
         slug: "melhores-celulares-para-editar-fotos-videos-2026",
         category: "criadores",
-        date: "10 Mar 2026"
+        date: "10 Fev 2026"
+    },
+    {
+        id: "6",
+        title: "Melhores Celulares para Trabalhar de Uber e 99pop em 2026",
+        description: "Celular travando com o passageiro no carro? Veja os 2 melhores smartphones que não esquentam no painel, têm bateria infinita e tela forte para o sol.",
+        image: "/images/trabalho/uberArtigo.webp", 
+        slug: "/melhores-celulares-para-trabalhar-no-uber-2026",
+        category: "trabalho",
+        date: "23 Fev 2026"
     }
 ];
