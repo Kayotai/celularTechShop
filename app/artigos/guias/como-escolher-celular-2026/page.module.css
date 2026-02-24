@@ -1,0 +1,134 @@
+.articleContainer {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem;
+    color: #e4e4e7;
+    font-size: 1.125rem;
+    line-height: 1.8;
+}
+
+.intro p {
+    margin-bottom: 1.5rem;
+    color: #d4d4d8;
+}
+
+.divider {
+    border: 0;
+    height: 1px;
+    background: #27272a;
+    margin: 3rem 0;
+}
+
+.section {
+    margin-bottom: 3.5rem;
+}
+
+.section h2 {
+    font-size: 1.75rem;
+    color: #f4f4f5;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+}
+
+.featureList {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.featureList li {
+    margin-bottom: 1rem;
+    color: #a1a1aa;
+}
+
+.featureList strong {
+    color: #e4e4e7;
+}
+
+.highlightBox {
+    background: rgba(59, 130, 246, 0.1);
+    border-left: 4px solid #3b82f6;
+    padding: 1.5rem;
+    border-radius: 0 8px 8px 0;
+    font-size: 1rem;
+    color: #bfdbfe;
+    margin: 2rem 0;
+}
+
+.internalLink {
+    color: #3b82f6;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    font-weight: 500;
+}
+
+.internalLink:hover {
+    color: #60a5fa;
+}
+
+.articleContainer blockquote {
+    font-style: italic;
+    color: #a1a1aa;
+    border-left: 4px solid #71717a;
+    padding-left: 1.5rem;
+    margin: 2rem 0;
+    font-size: 1.2rem;
+}
+
+/* --- CHECKLIST E CTA --- */
+.conclusion h2 {
+    text-align: center;
+    color: #10b981;
+}
+
+.checklistGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    margin: 2rem 0;
+}
+
+.checkItem {
+    background: #18181b;
+    border: 1px solid #27272a;
+    padding: 1rem;
+    border-radius: 8px;
+    font-weight: 600;
+    color: #d4d4d8;
+    display: flex;
+    align-items: center;
+}
+
+.ctaBox {
+    background: #27272a;
+    padding: 2.5rem;
+    border-radius: 12px;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.ctaBox h3 {
+    font-size: 1.5rem;
+    color: #fff;
+    margin-bottom: 0.5rem;
+}
+
+.ctaBox p {
+    color: #a1a1aa;
+    margin-bottom: 2rem;
+}
+
+.ctaButton {
+    display: inline-block;
+    background: #10b981;
+    color: #000;
+    font-weight: 700;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.ctaButton:hover {
+    background: #059669;
+}
