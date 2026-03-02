@@ -30,7 +30,7 @@ export const listMinecraftPhones: CardPhoneProps[] = [
         battery: "5000mAh",
         camera: "50MP Main"
     }
-},
+    },
     //  O Intermediário 
     {
         id: "poco-x7-pro",
@@ -90,5 +90,5 @@ export const listMinecraftPhones: CardPhoneProps[] = [
         battery: "4900mAh",
         camera: "50MP Triple System"
     }
-}
+    }
 ];

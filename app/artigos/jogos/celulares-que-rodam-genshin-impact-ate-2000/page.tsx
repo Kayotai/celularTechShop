@@ -7,7 +7,7 @@ import Image from "next/image";
 import imageGenshin from "@/public/images/jogos/genshinImpact/genshinImpact.webp"
 
 const pageData = {
-    title: "Os celulares que Rodam Genshin Impact até 2.000 Reais sem problemas (2026)",
+    title: "Os 3 melhores celulares que Rodam Genshin Impact até 2.000 Reais sem problemas (2026)",
     description: "Lista definitiva de celulares baratos que não travam no Abismo. Testes de FPS e temperatura atualizados.",
     slug: "celulares-que-rodam-genshin-impact-ate-2000",
     path: "artigos/jogos",

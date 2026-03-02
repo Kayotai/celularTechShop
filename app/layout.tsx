@@ -28,6 +28,12 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://celulartech.shop",
   },
+  manifest: "/manifest.json",
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: "default",
+    title: "CelularTech",
+  }
 };
 export default function RootLayout({children}: Readonly<{
   children: React.ReactNode;

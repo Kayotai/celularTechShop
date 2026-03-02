@@ -5,7 +5,7 @@ import { listVideoPhones } from "@/componentsLists/video/listVideoPhones";
 import styles from "./page.module.css"; 
 
 const pageData = {
-    title: "Melhores Celulares para Gravar Vídeo e Reels até 2.000 (2026)",
+    title: "Os melhores Celulares para Gravar Vídeo e Reels até 2.000 (2026)",
     description: "Quer começar no TikTok ou YouTube sem gastar demais? Testamos estabilização, microfone e qualidade 4K destes aparelhos acessíveis.",
     slug: "melhores-celulares-para-gravar-video-ate-2000",
     path: "artigos/criadores",

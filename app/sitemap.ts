@@ -11,7 +11,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
         { slug: "melhores-celulares-para-editar-fotos-videos-2026", category: "criadores", date: "2026-02-18" },
         { slug: "melhor-celular-2026-custo-beneficio", category: "review", date: "2026-02-17" },
         { slug: "melhores-celulares-para-trabalhar-no-uber-2026", category: "trabalho", date: "2026-02-23" },
-        { slug: "como-escolher-celular-2026", category: "guias", date: "2026-02-24" }
+        { slug: "como-escolher-celular-2026", category: "guias", date: "2026-02-24" },
+        { slug: "celular-caiu-na-agua", category: "informativo", date: "2026-03-3" },
     ];
 
     // Mapeamento dos Posts para URLs

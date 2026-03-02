@@ -10,6 +10,15 @@ export interface PostCardProps {
 
 export const BlogPosts: PostCardProps[] = [
     {
+        id: "8",
+        title: "Celular Caiu na Água? O Guia de Emergência (e o que NÃO fazer)",
+        description: "Não peça socorro, já estamos aqui! Faça isso para salvar seu aparelho, por que o arroz é um mito. Não seja enganado por técnicos.",
+        image: "/images/informativos/celularAgua.webp",
+        slug: "celular-caiu-na-agua",
+        category: "informativo",
+        date: "2 Mar 2026"
+    },
+    {
         id: "7",
         title: "Como Escolher um Bom Celular em 2026? O Guia Definitivo",
         description: "Não jogue dinheiro fora. Aprenda o que realmente importa na ficha técnica de um smartphone em 2026: RAM, Processador, Tela e Câmeras.",

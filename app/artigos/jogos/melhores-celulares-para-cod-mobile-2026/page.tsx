@@ -7,7 +7,7 @@ import styles from "./page.module.css";
 import imageCOD from "@/public/images/jogos/cod/codMobile.webp"
 
 const pageData = {
-    title: "Melhores Celulares para COD Mobile em 2026",
+    title: "Os 3 melhores Celulares para COD Mobile em 2026",
     description: "Lista atualizada com testes de FPS, aquecimento e performance competitiva.",
     slug: "melhores-celulares-para-cod-mobile-2026",
     path: "artigos/jogos",

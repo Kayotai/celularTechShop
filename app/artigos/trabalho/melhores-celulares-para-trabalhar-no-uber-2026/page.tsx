@@ -5,7 +5,7 @@ import styles from "./page.module.css";
 import { uberPhones } from "@/componentsLists/trabalho/listTrabalho"; 
 
 const pageData = {
-    title: "Melhores Celulares para Trabalhar de Uber e 99pop em 2026",
+    title: "OS 2 melhores Celulares para Trabalhar de Uber e 99pop em 2026",
     description: "Celular travando com o passageiro no carro? Veja os 2 melhores smartphones que não esquentam no painel, têm bateria infinita e tela forte para o sol.",
     slug: "/melhores-celulares-para-trabalhar-no-uber-2026",
     path: "artigos/reviews",
