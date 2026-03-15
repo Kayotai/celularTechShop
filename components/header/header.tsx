@@ -50,13 +50,16 @@ export default function Header()
                         </button>
                         <ul className={styles.navMobileList}>
                             <li className={styles.linkNav} onClick={() => setIsOpen(false)}> 
-                                <Link href="/"> Home </Link> 
+                                <Link href="/">Home</Link> 
                             </li>
                             <li className={styles.linkNav} onClick={() => setIsOpen(false)}> 
-                                <Link href="/artigos/criadores/melhores-celulares-para-gravar-video-ate-2000"> Para Gravar </Link> 
+                                <Link href="/calculadora-do-celular-perfeito">Calculadora do Celular Perfeito</Link> 
                             </li>
                             <li className={styles.linkNav} onClick={() => setIsOpen(false)}> 
-                                <Link href="/artigos/jogos/melhores-celulares-para-cod-mobile-2026"> Para jogar </Link> 
+                                <Link href="/artigos/criadores/melhores-celulares-para-gravar-video-ate-2000">Para Gravar</Link> 
+                            </li>
+                            <li className={styles.linkNav} onClick={() => setIsOpen(false)}> 
+                                <Link href="/artigos/jogos/melhores-celulares-para-cod-mobile-2026">Para jogar</Link> 
                             </li>
                         </ul>
                     </div>

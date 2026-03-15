@@ -1,0 +1,204 @@
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+    color: #e4e4e7;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.header h1 {
+    font-size: 2rem;
+    color: #fff;
+    margin-bottom: 0.5rem;
+}
+
+.header p {
+    color: #a1a1aa;
+    font-size: 1.1rem;
+}
+
+/* --- QUIZ --- */
+.quizWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.questionBlock h3 {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    color: #60a5fa; /* Azul tech */
+}
+
+.optionsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 1rem;
+}
+
+.optionBtn {
+    background: #18181b;
+    border: 2px solid #27272a;
+    padding: 1.2rem 1rem;
+    border-radius: 12px;
+    color: #d4d4d8;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.optionBtn:hover {
+    border-color: #3f3f46;
+    background: #27272a;
+}
+
+.optionBtn.active {
+    border-color: #10b981; /* Verde ativado */
+    background: rgba(16, 185, 129, 0.1);
+    color: #10b981;
+}
+
+.submitBtn {
+    background: #3b82f6;
+    color: #fff;
+    border: none;
+    padding: 1.2rem;
+    border-radius: 12px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 1rem;
+    transition: background 0.2s;
+}
+
+.submitBtn:disabled {
+    background: #3f3f46;
+    color: #71717a;
+    cursor: not-allowed;
+}
+
+.submitBtn:not(:disabled):hover {
+    background: #2563eb;
+}
+
+/* --- RESULTADO --- */
+.resultWrapper {
+    animation: fadeIn 0.5s ease;
+    text-align: center;
+}
+
+.resultWrapper h2 {
+    color: #10b981;
+    margin-bottom: 2rem;
+}
+
+.resultCard {
+    background: #18181b;
+    border: 1px solid #27272a;
+    border-radius: 16px;
+    padding: 2rem;
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+.imagePlaceholder {
+    background: #27272a;
+    height: 300px;
+    width: 100%;
+    position: relative;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+    color: #71717a;
+}
+
+.imageResult {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.resultInfo h3 {
+    font-size: 1.8rem;
+    color: #fff;
+    margin-bottom: 0.5rem;
+}
+
+.score {
+    display: inline-block;
+    background: rgba(16, 185, 129, 0.2);
+    color: #10b981;
+    padding: 0.2rem 0.6rem;
+    border-radius: 4px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.description {
+    color: #a1a1aa;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+}
+
+.actionButtons {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.btnReview {
+    display: block;
+    text-align: center;
+    background: transparent;
+    border: 1px solid #3b82f6;
+    color: #3b82f6;
+    padding: 1rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.storeButtons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.btnAmazon, .btnML {
+    text-align: center;
+    padding: 1rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #070707;
+}
+
+.btnAmazon { background: #f59e0b; } /* Laranja Amazon */
+.btnML { background: #fde047; } /* Amarelo ML */
+
+.resetBtn {
+    background: transparent;
+    color: #a1a1aa;
+    border: none;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 600px) {
+    .storeButtons {
+        grid-template-columns: 1fr;
+    }
+}
