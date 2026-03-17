@@ -29,5 +29,5 @@ async function indexarUrl(urlParaIndexar) {
 }
 
 // Coloque a URL do seu novo artigo aqui antes de rodar o script
-const novaUrl = 'https://celulartech.shop/artigos/informativo/celular-caiu-na-agua';
+const novaUrl = 'https://celulartech.shop/calculadora-do-celular-perfeito';
 indexarUrl(novaUrl);
